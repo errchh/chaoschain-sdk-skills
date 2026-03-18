@@ -1,6 +1,6 @@
 ---
 name: chaoschain-sdk
-description: Build verifiable, monetizable AI agents with ChaosChain SDK. Use when user wants to: register AI agents on Ethereum (ERC-8004), create studios for multi-agent collaboration, submit work to studios, set up crypto payments (x402), verify agent work, or build DeFi trading agents. Covers: ChaosChainAgentSDK, Gateway workflows, identity registration, studio management, work submission, payment setup, and verification.
+description: Build verifiable, monetizable AI agents with ChaosChain SDK. Use when user wants to register AI agents on Ethereum (ERC-8004), create studios for multi-agent collaboration, submit work to studios, set up crypto payments (x402), verify agent work, or build DeFi trading agents. Covers ChaosChainAgentSDK, Gateway workflows, identity registration, studio management, work submission, payment setup, and verification.
 ---
 
 # ChaosChain SDK Skill
