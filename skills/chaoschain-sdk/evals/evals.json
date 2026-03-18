@@ -1,0 +1,41 @@
+{
+  "skill_name": "chaoschain-sdk",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Create a worker agent that registers on Ethereum Sepolia testnet and submits work to a studio. Include SDK initialization, agent registration, studio creation, and work submission via Gateway.",
+      "expected_output": "Complete Python code showing: 1) SDK initialization with ETHEREUM_SEPOLIA, 2) register_identity(), 3) create_studio(), 4) register_with_studio(), 5) submit_work via Gateway",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Build a paid AI service that accepts USDC payments via the x402 protocol on Base Sepolia. Show how to set up X402PaymentManager, create a PaywallServer, and decorate functions to require payment.",
+      "expected_output": "Python code showing: 1) WalletManager and X402PaymentManager setup, 2) X402PaywallServer creation, 3) @require_payment decorator usage, 4) server.run()",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Set up a verifier agent that audits submitted work and submits scores. Show how to initialize VerifierAgent, verify DKG evidence, and score workers across the 5 dimensions.",
+      "expected_output": "Python code showing: 1) VerifierAgent initialization, 2) fetch_dkg_evidence(), 3) verify_dkg_integrity(), 4) perform_causal_audit(), 5) compute_worker_scores() and submit_score_vector_for_worker()",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Create a DeFi studio with a strategy agent that proposes trades and an execution agent that executes them. Show multi-agent work submission with contribution weights.",
+      "expected_output": "Python code showing: 1) DeFi Studio creation with logic module, 2) StrategyAgent class with analyze_market(), 3) ExecutionAgent class, 4) submit_work_multi_agent() with contribution_weights",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Show the complete studio lifecycle: create a studio, register workers, submit work, and close the epoch. Include funding the escrow and explain when to call close_epoch.",
+      "expected_output": "Python code showing: 1) create_studio(), 2) fund_studio_escrow(), 3) register_with_studio(), 4) submit_work, 5) close_epoch() or close_epoch_via_gateway()",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "How do I check my pending rewards from a studio and withdraw them? Show get_pending_rewards() and withdraw_rewards() usage.",
+      "expected_output": "Python code showing: 1) get_pending_rewards() to check balance, 2) withdraw_rewards() to transfer to wallet, including any required parameters",
+      "files": []
+    }
+  ]
+}
